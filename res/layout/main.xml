@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10px">
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content">
+	    
+	    <Button android:id="@+id/button_view_tutorial_1"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+	            android:layout_marginTop="10px"
+		        android:text="Tutorial 1"/>
+
+		<TextView	android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:text="Transparent panel over map"/>
+   	</LinearLayout>
+   		
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content">
+	    
+	    <Button android:id="@+id/button_view_tutorial_2"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+	            android:layout_marginTop="5px"
+	            android:text="Tutorial 2"/>
+
+		<TextView	android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:text="Drawing icons on a map"/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content">
+	    
+	    <Button android:id="@+id/button_view_tutorial_3"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+	            android:layout_marginTop="5px"
+	            android:text="Tutorial 3"/>
+
+		<TextView	android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:text="Stream and play audio"/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content">
+	    
+	    <Button android:id="@+id/button_view_tutorial_4"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+	            android:layout_marginTop="5px"
+	            android:text="Tutorial 4"/>
+
+		<TextView	android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:text="Create image and text only buttons"/>
+	</LinearLayout>    
+        
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content">
+	    
+		<Button android:id="@+id/button_view_tutorial_5"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+	            android:layout_marginTop="5px"
+	            android:text="Tutorial 5"/>
+
+		<TextView	android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:text="Animate a popup view"/>
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="horizontal"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content">
+	
+		<Button android:id="@+id/button_view_tutorial_6"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content"
+	            android:layout_marginTop="5px"
+	            android:text="Tutorial 6"/>
+
+		<TextView	android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="5px"
+				    android:text="Capture/display mouse/finger touches on the screen"/>
+	    	    
+	</LinearLayout>
+</LinearLayout>

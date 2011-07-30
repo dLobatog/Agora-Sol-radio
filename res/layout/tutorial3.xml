@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:padding="10px">
+
+	<TextView  	android:id="@+id/text_kb_streamed"
+				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:textStyle="bold"
+	        	android:text="Streaming .mp3 Audio Tutorial"/>
+	
+	    <Button	android:id="@+id/button_stream"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+		    android:layout_marginTop="10px"
+            style="?android:attr/buttonStyleSmall" 
+	        android:text="Start Streaming"/>
+
+
+	<ProgressBar android:id="@+id/progress_bar"  
+		    	android:layout_width="200px"
+		    	android:layout_height="wrap_content"
+		    	android:layout_alignParentLeft="true"
+		    	style="?android:attr/progressBarStyleHorizontal"/>
+
+    <ImageButton	android:id="@+id/button_play"
+			        android:layout_width="wrap_content" 
+			        android:layout_height="wrap_content"
+		            android:layout_marginTop="5px"
+		            style="?android:attr/buttonStyleSmall" 
+		    		android:src="@drawable/button_pause"/>
+
+</LinearLayout>

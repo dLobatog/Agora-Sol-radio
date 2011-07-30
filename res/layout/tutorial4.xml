@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:pj="http://schemas.android.com/apk/res/com.pocketjourney.tutorials"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:padding="10px">
+
+	<TextView  	android:id="@+id/text_kb_streamed"
+				android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:textStyle="bold"
+			    android:text="Text and Image Button Tutorials"/>
+    
+    <com.pocketjourney.view.TextOnlyButton
+    		android:id="@+id/text_only_button"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            style="?android:attr/buttonStyleSmall"
+            android:text="Text Button"
+            android:background="@drawable/empty"
+            pj:textColorNotFocused="@drawable/white"
+            pj:textColorFocused="@drawable/android_orange"
+            pj:textColorPressed="@drawable/android_yellow"/>  
+
+    <com.pocketjourney.view.ImageOnlyButton 
+    		android:id="@+id/image_only_button"
+    		android:src="@drawable/help"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content"
+            android:layout_marginTop="15px"
+            android:background="@drawable/empty"
+            pj:resourceNotFocused="@drawable/help"
+            pj:resourceFocused="@drawable/help_focused"
+            pj:resourcePressed="@drawable/help_pressed"/>
+            
+</LinearLayout>
