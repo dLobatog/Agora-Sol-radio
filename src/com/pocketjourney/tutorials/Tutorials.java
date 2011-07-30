@@ -70,7 +70,7 @@ public class Tutorials extends Activity {
     		audioStreamer.startStreaming("http://giss.tv:8000/acampadasol.mp3",32, 0);
     		streamButton.setEnabled(false);
     	} catch (IOException e) {
-	    	Log.e(getClass().getName(), "Error starting to stream audio.", e);            		
+	    	Log.e(getClass().getName(), "Error en el streaming. La emisora puede no estar retrasmitiendo.", e);            		
     	}
     	    	
     }
