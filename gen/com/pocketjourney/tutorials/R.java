@@ -87,39 +87,22 @@ containing a value of this type.
         public static final int white=0x7f02000d;
     }
     public static final class id {
-        public static final int button_click_me=0x7f06000a;
-        public static final int button_play=0x7f06000f;
-        public static final int button_stream=0x7f06000d;
+        public static final int button_play=0x7f06000a;
+        public static final int button_stream=0x7f060008;
         public static final int button_view_tutorial_1=0x7f060000;
         public static final int button_view_tutorial_2=0x7f060001;
         public static final int button_view_tutorial_3=0x7f060002;
         public static final int button_view_tutorial_4=0x7f060003;
         public static final int button_view_tutorial_5=0x7f060004;
         public static final int button_view_tutorial_6=0x7f060005;
-        public static final int city_map_view=0x7f060008;
-        public static final int hide_popup_button=0x7f060014;
-        public static final int home_container=0x7f060007;
-        public static final int image_only_button=0x7f060011;
-        public static final int location_description=0x7f060016;
-        public static final int location_name=0x7f060015;
-        public static final int map_location_viewer=0x7f06000b;
-        public static final int popup_window=0x7f060013;
-        public static final int progress_bar=0x7f06000e;
-        public static final int show_popup_button=0x7f060012;
+        public static final int progress_bar=0x7f060009;
         public static final int text1=0x7f060006;
-        public static final int text_kb_streamed=0x7f06000c;
-        public static final int text_only_button=0x7f060010;
-        public static final int transparent_panel=0x7f060009;
+        public static final int text_kb_streamed=0x7f060007;
     }
     public static final class layout {
         public static final int main=0x7f030000;
         public static final int row=0x7f030001;
-        public static final int tutorial1=0x7f030002;
-        public static final int tutorial2=0x7f030003;
-        public static final int tutorial3=0x7f030004;
-        public static final int tutorial4=0x7f030005;
-        public static final int tutorial5=0x7f030006;
-        public static final int tutorial6=0x7f030007;
+        public static final int tutorial3=0x7f030002;
     }
     public static final class string {
         public static final int app_name=0x7f050000;

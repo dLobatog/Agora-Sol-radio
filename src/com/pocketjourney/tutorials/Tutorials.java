@@ -66,6 +66,7 @@ public class Tutorials extends Activity {
     		}
     		audioStreamer = new StreamingMediaPlayer(this,textStreamed, playButton, streamButton,progressBar);
     		//audioStreamer.startStreaming("http://www.pocketjourney.com/downloads/pj/tutorials/audio.mp3",1717, 214);
+    		//Last two parameters are : size of the file to stream, length of it (seconds)
     		audioStreamer.startStreaming("http://giss.tv:8000/acampadasol.mp3",32, 0);
     		streamButton.setEnabled(false);
     	} catch (IOException e) {

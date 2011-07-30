@@ -9,27 +9,27 @@
 				android:layout_width="fill_parent" 
 			    android:layout_height="wrap_content" 
 			    android:textStyle="bold"
-	        	android:text="Streaming .mp3 Audio Tutorial"/>
+	        	android:text="Agora Sol radio - Radio del movimiento 15M"/>
 	
 	    <Button	android:id="@+id/button_stream"
-	        android:layout_width="wrap_content" 
+	        android:layout_width="fill_parent" 
 	        android:layout_height="wrap_content"
 		    android:layout_marginTop="10px"
-            style="?android:attr/buttonStyleSmall" 
-	        android:text="Start Streaming"/>
+            style="?android:attr/buttonStyle" 
+	        android:text="Empieza a escuchar"/>
 
 
 	<ProgressBar android:id="@+id/progress_bar"  
-		    	android:layout_width="200px"
+		    	android:layout_width="fill_parent"
 		    	android:layout_height="wrap_content"
-		    	android:layout_alignParentLeft="true"
+		    	android:layout_centerHorizontal="true"
 		    	style="?android:attr/progressBarStyleHorizontal"/>
 
     <ImageButton	android:id="@+id/button_play"
-			        android:layout_width="wrap_content" 
-			        android:layout_height="wrap_content"
+			        android:layout_width="fill_parent" 
+			        android:layout_height="fill_parent"
 		            android:layout_marginTop="5px"
-		            style="?android:attr/buttonStyleSmall" 
+		            style="?android:attr/buttonStyle" 
 		    		android:src="@drawable/button_pause"/>
 
 </LinearLayout>
