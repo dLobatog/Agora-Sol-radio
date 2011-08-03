@@ -20,6 +20,20 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+/*
+ *  This project is licensed under CC-By Creative Commons license.
+ *
+ *  This license lets others distribute, remix, tweak, and build upon my
+ *  work, even commercially, as long as you credit me for the original
+ *  creation. See details in file LICENSE in the root of this repository
+ *
+ *
+ *  @author Daniel Lobato Garcia
+ *  @website http://www.daniellobato.me
+ *
+ * */
+
+
 /**
  * MediaPlayer does not yet support streaming from external URLs so this class provides a pseudo-streaming function
  * by downloading the content incrementally & playing as soon as we get enough audio in our temporary storage.

@@ -2,5 +2,6 @@ Agora Sol
 
 ---------------------
 
+This project is licensed under the CC BY creative commons license. This means you can distribute, twea, and build upon my work even commercially as long as you credit me for the original creation. See details in LICENSE file
 
 Agora Sol is the current radio stream client for the radio station Agora Solin Madrid. With a very simple design, it provides all the functionalities the audience of the station need. If you need to build an app for your radio station, feel free to fork it and modify as needed.
