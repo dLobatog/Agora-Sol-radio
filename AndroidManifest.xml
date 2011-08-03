@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.pocketjourney.tutorials" android:versionCode="1"
-	android:versionName="1.0">
+	package="com.daniellobato.agorasol" android:versionName="1.2" android:versionCode="2">
 	<application android:icon="@drawable/icon" android:label="Agora Sol">
-		<activity android:label="Agora Sol" android:name="Tutorials">
+		<activity android:label="Agora Sol" android:name="com.daniellobato.agorasol.Tutorials">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />

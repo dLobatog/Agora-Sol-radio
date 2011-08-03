@@ -1,4 +1,4 @@
-package com.pocketjourney.media;
+package com.daniellobato.media;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

@@ -1,4 +1,4 @@
-package com.pocketjourney.tutorials;
+package com.daniellobato.agorasol;
 
 import java.io.IOException;
 
@@ -11,7 +11,8 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.pocketjourney.media.StreamingMediaPlayer;
+import com.daniellobato.media.StreamingMediaPlayer;
+import com.daniellobato.agorasol.R;
 
 public class Tutorials extends Activity {
 

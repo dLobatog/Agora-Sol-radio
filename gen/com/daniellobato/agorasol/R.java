@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.pocketjourney.tutorials;
+package com.daniellobato.agorasol;
 
 public final class R {
     public static final class anim {
@@ -87,17 +87,19 @@ containing a value of this type.
         public static final int white=0x7f02000d;
     }
     public static final class id {
-        public static final int button_play=0x7f06000a;
-        public static final int button_stream=0x7f060008;
+        public static final int button_play=0x7f06000c;
+        public static final int button_stream=0x7f06000a;
         public static final int button_view_tutorial_1=0x7f060000;
         public static final int button_view_tutorial_2=0x7f060001;
         public static final int button_view_tutorial_3=0x7f060002;
         public static final int button_view_tutorial_4=0x7f060003;
         public static final int button_view_tutorial_5=0x7f060004;
         public static final int button_view_tutorial_6=0x7f060005;
-        public static final int progress_bar=0x7f060009;
+        public static final int imageView1=0x7f060008;
+        public static final int linearLayout1=0x7f060007;
+        public static final int progress_bar=0x7f06000b;
         public static final int text1=0x7f060006;
-        public static final int text_kb_streamed=0x7f060007;
+        public static final int text_kb_streamed=0x7f060009;
     }
     public static final class layout {
         public static final int main=0x7f030000;
@@ -114,9 +116,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ImageOnlyButton_resourceFocused com.pocketjourney.tutorials:resourceFocused}</code></td><td></td></tr>
-           <tr><td><code>{@link #ImageOnlyButton_resourceNotFocused com.pocketjourney.tutorials:resourceNotFocused}</code></td><td></td></tr>
-           <tr><td><code>{@link #ImageOnlyButton_resourcePressed com.pocketjourney.tutorials:resourcePressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #ImageOnlyButton_resourceFocused com.daniellobato.agorasol:resourceFocused}</code></td><td></td></tr>
+           <tr><td><code>{@link #ImageOnlyButton_resourceNotFocused com.daniellobato.agorasol:resourceNotFocused}</code></td><td></td></tr>
+           <tr><td><code>{@link #ImageOnlyButton_resourcePressed com.daniellobato.agorasol:resourcePressed}</code></td><td></td></tr>
            </table>
            @see #ImageOnlyButton_resourceFocused
            @see #ImageOnlyButton_resourceNotFocused
@@ -126,7 +128,7 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>This symbol is the offset where the {@link com.pocketjourney.tutorials.R.attr#resourceFocused}
+          <p>This symbol is the offset where the {@link com.daniellobato.agorasol.R.attr#resourceFocused}
           attribute's value can be found in the {@link #ImageOnlyButton} array.
 
 
@@ -140,7 +142,7 @@ containing a value of this type.
         */
         public static final int ImageOnlyButton_resourceFocused = 1;
         /**
-          <p>This symbol is the offset where the {@link com.pocketjourney.tutorials.R.attr#resourceNotFocused}
+          <p>This symbol is the offset where the {@link com.daniellobato.agorasol.R.attr#resourceNotFocused}
           attribute's value can be found in the {@link #ImageOnlyButton} array.
 
 
@@ -154,7 +156,7 @@ containing a value of this type.
         */
         public static final int ImageOnlyButton_resourceNotFocused = 0;
         /**
-          <p>This symbol is the offset where the {@link com.pocketjourney.tutorials.R.attr#resourcePressed}
+          <p>This symbol is the offset where the {@link com.daniellobato.agorasol.R.attr#resourcePressed}
           attribute's value can be found in the {@link #ImageOnlyButton} array.
 
 
@@ -173,9 +175,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TextOnlyButton_textColorFocused com.pocketjourney.tutorials:textColorFocused}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextOnlyButton_textColorNotFocused com.pocketjourney.tutorials:textColorNotFocused}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextOnlyButton_textColorPressed com.pocketjourney.tutorials:textColorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextOnlyButton_textColorFocused com.daniellobato.agorasol:textColorFocused}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextOnlyButton_textColorNotFocused com.daniellobato.agorasol:textColorNotFocused}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextOnlyButton_textColorPressed com.daniellobato.agorasol:textColorPressed}</code></td><td></td></tr>
            </table>
            @see #TextOnlyButton_textColorFocused
            @see #TextOnlyButton_textColorNotFocused
@@ -185,7 +187,7 @@ containing a value of this type.
             0x7f010003, 0x7f010004, 0x7f010005
         };
         /**
-          <p>This symbol is the offset where the {@link com.pocketjourney.tutorials.R.attr#textColorFocused}
+          <p>This symbol is the offset where the {@link com.daniellobato.agorasol.R.attr#textColorFocused}
           attribute's value can be found in the {@link #TextOnlyButton} array.
 
 
@@ -199,7 +201,7 @@ containing a value of this type.
         */
         public static final int TextOnlyButton_textColorFocused = 1;
         /**
-          <p>This symbol is the offset where the {@link com.pocketjourney.tutorials.R.attr#textColorNotFocused}
+          <p>This symbol is the offset where the {@link com.daniellobato.agorasol.R.attr#textColorNotFocused}
           attribute's value can be found in the {@link #TextOnlyButton} array.
 
 
@@ -213,7 +215,7 @@ containing a value of this type.
         */
         public static final int TextOnlyButton_textColorNotFocused = 0;
         /**
-          <p>This symbol is the offset where the {@link com.pocketjourney.tutorials.R.attr#textColorPressed}
+          <p>This symbol is the offset where the {@link com.daniellobato.agorasol.R.attr#textColorPressed}
           attribute's value can be found in the {@link #TextOnlyButton} array.
 
 
