@@ -86,6 +86,5 @@ public class Tutorials extends Activity {
     } catch (IOException e) {
       Log.e(getClass().getName(), "Error en el streaming. La emisora puede no estar retrasmitiendo.", e);            		
     }
-
   }
 }
